@@ -111,12 +111,17 @@ nav{
                        /* hero section */
 
                        /* steps section */
+.steps::-webkit-scrollbar{
+    display: none;
+}
 .steps{
     position: relative;
     display: flex;
-    padding: 270px 80px;
+    padding: 270px 80px 0px 80px;
     gap: 30px;
     overflow-x: scroll;
+    
+    
    
    .step1{
     border-radius: 15px;
@@ -139,7 +144,7 @@ nav{
     img{
         height: 300px;
         position: absolute;
-        bottom: 450px;
+        bottom: 170px;
         left: 170px;
     }
    }
@@ -164,7 +169,7 @@ nav{
     img{
         height: 300px;
         position: absolute;
-        bottom: 450px;
+        bottom: 170px;
         left: 440px;
     }
    }
@@ -189,7 +194,7 @@ nav{
     img{
         height: 300px;
         position: absolute;
-        bottom: 450px;
+        bottom: 170px;
         left: 700px;
     }
    }
@@ -214,7 +219,7 @@ nav{
     img{
         height: 300px;
         position: absolute;
-        bottom: 450px;
+        bottom: 170px;
         left: 980px;
     }
    }
@@ -239,7 +244,7 @@ nav{
     img{
         height: 300px;
         position: absolute;
-        bottom: 450px;
+        bottom: 170px;
         left: 1250px;
     }
    }
@@ -264,7 +269,7 @@ nav{
     img{
         height: 300px;
         position: absolute;
-        bottom: 450px;
+        bottom: 170px;
         left: 1520px;
     }
    }
@@ -279,3 +284,96 @@ nav{
     }
 }
                        /* steps section */
+
+.our{
+    padding: 20px 80px ;
+    font-size: 25px;
+    color: #20115f;
+}
+
+                        /* service section */
+ .service{
+    .fund{
+        background-color: #46bfa1;
+        display: flex;
+        align-items: center;
+        padding: 40px 80px;
+        .fund-text{
+            color: white;
+            h1{
+                font-size: 40px;
+                margin-bottom: 20px;
+            }
+        }
+        p{
+            font-size: 20px;
+            width: 530px;
+            line-height: 1.7;
+            
+        }
+        .fund-img img{
+            width: 700px;
+            height: 450px;
+            border-radius: 18px;
+            object-fit: cover;
+        }
+    }
+    .card{
+        display: flex;
+        align-items: center;
+        padding: 40px 80px;
+        gap: 80px;
+        .card-text{
+           
+            h1{
+                font-size: 40px;
+                margin-bottom: 20px;
+                color:#46bfa1;
+            }
+        }
+        p{
+            font-size: 20px;
+            width: 530px;
+            line-height: 1.7;
+            color: #20115f;
+            
+        }
+        .card-img img{
+            width: 700px;
+            height: 450px;
+            border-radius: 18px;
+            object-fit: cover;
+        }
+    }
+
+    .owealth{
+        background-color: #46bfa1;
+        display: flex;
+        align-items: center;
+        padding: 40px 80px;
+        gap: 150px;
+        .owealth-text{
+            color: white;
+            h1{
+                font-size: 40px;
+                margin-bottom: 20px;
+            }
+        }
+        p{
+            font-size: 20px;
+            width: 500px;
+            line-height: 1.7;
+            
+        }
+        .owealth-img img{
+            width: 700px;
+            height: 450px;
+            border-radius: 18px;
+            object-fit: cover;
+        }
+    }
+
+
+
+ }                       
+                        /* service section */
