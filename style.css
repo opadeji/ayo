@@ -34,8 +34,9 @@ nav{
         color: #4bc7a8;
         font-weight: bold;
     }
+ 
 }
-                      /* nav section */
+            /* nav section */
 
 
                       /* hero section */
@@ -82,6 +83,7 @@ nav{
                 height: 30px;
                 padding: 10px 10px ;
                 cursor: pointer;
+               
             }
             .btn2{
                 display: flex;
@@ -94,6 +96,7 @@ nav{
                 height: 30px;
                 padding: 10px 10px ;
                 cursor: pointer;
+               
             }
             button{
                 img{
@@ -107,6 +110,7 @@ nav{
     }
 
 }
+
 
                        /* hero section */
 
@@ -144,8 +148,8 @@ nav{
     img{
         height: 300px;
         position: absolute;
-        bottom: 170px;
-        left: 170px;
+         bottom: 170px;
+        left: 170px; 
     }
    }
    .step2{
